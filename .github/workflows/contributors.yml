@@ -33,7 +33,8 @@ jobs:
           START_DATE: ${{ env.START_DATE }}
           END_DATE: ${{ env.END_DATE }}
           #ORGANIZATION: "G-Research" # change GH_TOKEN to use with different org
-          ORGANIZATION: "naskio"
+          #ORGANIZATION: "naskio"
+          REPOSITORY: "naskio/docker-strapi,naskio/n8n-nodes-python"
           SPONSOR_INFO: "false"
 
       - name: Create issue
