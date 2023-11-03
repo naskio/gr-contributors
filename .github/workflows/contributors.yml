@@ -34,7 +34,8 @@ jobs:
           END_DATE: ${{ env.END_DATE }}
           #ORGANIZATION: "G-Research" # change GH_TOKEN to use with different org
           #ORGANIZATION: "naskio"
-          REPOSITORY: "naskio/docker-strapi,naskio/n8n-nodes-python"
+          #REPOSITORY: "naskio/docker-strapi,naskio/n8n-nodes-python"
+          REPOSITORY: "G-Research/fasttrackml,G-Research/consuldotnet,m4rs-mt/ILGPU,armadaproject/armada"
           SPONSOR_INFO: "false"
 
       - name: Create issue
